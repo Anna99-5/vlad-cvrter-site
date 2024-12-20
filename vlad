@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VLAD CVRTER | Официальный сайт</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(to right, #ff7f50, #ff4500);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: #ff7f50;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        section h2 {
+            font-size: 2rem;
+            color: #ff7f50;
+        }
+        .tracks {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .track {
+            background-color: #1e1e1e;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .track img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .track h3 {
+            margin: 15px 0 10px;
+            font-size: 1.2rem;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e1e1e;
+            margin-top: 30px;
+        }
+        footer p {
+            margin: 0;
+            color: #888;
+        }
+        .cta {
+            display: block;
+            background: #ff7f50;
+            color: #121212;
+            text-decoration: none;
+            padding: 15px 25px;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 20px 0;
+            transition: background 0.3s;
+        }
+        .cta:hover {
+            background: #ff4500;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>VLAD CVRTER</h1>
+    <p>Официальный сайт талантливого рэпера</p>
+</header>
+
+<nav>
+    <a href="#about">О VLAD CVRTER</a>
+    <a href="#tracks">Популярные треки</a>
+    <a href="#listen">Слушать</a>
+</nav>
+
+<section id="about">
+    <h2>О VLAD CVRTER</h2>
+    <p>VLAD CVRTER — современный рэпер, чьи проникновенные тексты и уникальное звучание вдохновляют тысячи слушателей. Его песни — это отражение жизни, эмоций и стремления к большему.</p>
+</section>
+
+<section id="tracks">
+    <h2>Популярные треки</h2>
+    <div class="tracks">
+        <div class="track">
+            <img src="https://via.placeholder.com/250" alt="Л.Ю.Б.Л.Ю.">
+            <h3>Л.Ю.Б.Л.Ю.</h3>
+            <p>Композиция о любви и искренних чувствах.</p>
+        </div>
+        <div class="track">
+            <img src="https://via.placeholder.com/250" alt="Чудо">
+            <h3>Чудо</h3>
+            <p>Вдохновляющая песня о вере в чудеса.</p>
+        </div>
+        <div class="track">
+            <img src="https://via.placeholder.com/250" alt="Поймал время">
+            <h3>Поймал время</h3>
+            <p>О важности ценить каждый момент жизни.</p>
+        </div>
+    </div>
+</section>
+
+<section id="listen">
+    <h2>Слушайте VLAD CVRTER</h2>
+    <p>Откройте для себя все треки и альбомы на Яндекс Музыке. Погрузитесь в мир качественного рэпа прямо сейчас!</p>
+    <a href="https://music.yandex.ru/artist/21746997" class="cta" target="_blank">Слушать на Яндекс Музыке</a>
+</section>
+
+<footer>
+    <p>&copy; 2024 VLAD CVRTER. Все права защищены.</p>
+</footer>
+
+</body>
+</html>
